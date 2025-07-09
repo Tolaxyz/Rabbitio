@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DigitRabbit</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game-container" id="game">
+      <img src="images/character.png" id="character" class="character" />
+      <img src="images/obstacle.png" id="obstacle" class="obstacle" />
+      <img src="images/prophecy.png" id="prophecy" class="prophecy" />
+
+      <div class="score" id="score">Digit score: 0</div>
+      <div id="gameOverText" class="game-over hidden">
+        Opps! Little o'Rabbitio hit a brick!
+      </div>
+      <button id="restartBtn" class="restart-button hidden">Start Again</button>
+    </div>
+    <button id="startBtn">Start Game</button>
+    <button id="pauseBtn">Pause</button>
+    <div id="gameText">Digit Rabbits!</div>
+
+    <script src="game.js"></script>
+  </body>
+</html>
